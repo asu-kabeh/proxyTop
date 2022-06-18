@@ -77,7 +77,7 @@
     "site": "https://github.com/Leon406/SubCrawler",
     "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 10,
@@ -157,7 +157,7 @@
     "site": "https://github.com/ObcbO/auto-subscribe",
     "url": "https://raw.githubusercontent.com/ObcbO/auto-subscribe/main/subscribe/v2ray.txt",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 20,
@@ -165,7 +165,7 @@
     "site": "https://pool.jinxnet.xyz",
     "url": "https://pool.jinxnet.xyz/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 21,
@@ -181,7 +181,7 @@
     "site": "https://t.me/getv2ray",
     "url": "http://hzx852iu28.youhui112.com/subscribe",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 23,
@@ -213,7 +213,7 @@
     "site": "https://github.com/KYLELI1991/sysucc",
     "url": "https://raw.githubusercontent.com/KYLELI1991/sysucc/main/Temp",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 27,
@@ -277,7 +277,7 @@
     "site": "https://github.com/songkaik/Sub",
     "url": "https://raw.githubusercontent.com/songkaik/Sub/main/v2rayN",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 35,
@@ -285,7 +285,7 @@
     "site": "https://github.com/yosefwang/subscription",
     "url": "https://raw.githubusercontent.com/yosefwang/subscription/main/README.md",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 36,
@@ -309,7 +309,7 @@
     "site": "open.ml",
     "url": "https://raw.githubusercontent.com/yu-steven/openit/main/utils/pool/output.yaml",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 39,
@@ -317,7 +317,7 @@
     "site": "https://kingfu.herokuapp.com/",
     "url": "https://free.jingfu.cf/clash/proxies?speed=1",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 40,
