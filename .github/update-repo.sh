@@ -4,5 +4,5 @@ status_log=$(git status -sb)
 if [ "$status_log" == "## master...origin/master" ];then
   echo -e "\033[42;30m nothing to commit, working tree clean \033[0m"
 else
-  git pull origin main && git add . && git commit -m "$(date '+%Y.%m.%d %H:%M:%S') 更新订阅" && git push origin master
+  git pull origin master && git add . && git commit -m "$(date '+%Y.%m.%d %H:%M:%S') 更新订阅" && git push origin master
 fi
