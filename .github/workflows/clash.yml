@@ -2,7 +2,7 @@ name: Clash
 on: 
   schedule:
     - cron: '*/32 0-14 * * *'
-    # - cron: '*/51 14-23 * * *'
+    - cron: '*/51 14-23 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,22 +26,33 @@ jobs:
       run:   sudo chmod +x ./utils/subconverter/subconverter && cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
     - name: rm
       run: | #input./utils/subconverter/rm1
+         chmod +x ./.github/update-repo.sh
          mv ./utils/subconverter/rm1 ./utils/rm/rm1
+         sudo chmod +x ./utils/rm/location.js
+         sudo chmod +x ./utils/rm/index.js
          cd ./utils/rm/
+         #input./utils/rm/rm1
          base64 -d rm1 > rm2 #output./utils/rm/rm2
-         npm install
+         sudo npm install
+         #input./utils/rm/package-lock.json
+         #input./utils/rm/rm2
          npm start
+         #output./utils/rm/url
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         rm ./utils/rm/rm1 ./utils/rm/rm2
+         sudo rm ./utils/rm/rm1 ./utils/rm/rm2
          #input./utils/rm/url
-         mv ./utils/rm/url ./url #output./url
+         sudo mv ./utils/rm/url ./url #output./url
          #input./url
          base64 ./url > ./utils/pool/check -w 0 #output./utils/pool/check
          #input./.github/url.sh
-         ./.github/url.sh > ./1
-         cp ./url ./2
-         cat 1 2 > 3 && rm 1 2
+         sudo chmod +x ./.github/url.sh
+         ./.github/url.sh > ./1 #output./1
+         #input./url
+         sudo cp ./url ./2 #output./2
+         #input./1 ./2
+         cat 1 2 > 3 && rm 1 2 #output./3
+         #input./3
          base64 3 > https -w 0 && rm 3 #output./https
     - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
 
