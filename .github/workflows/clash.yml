@@ -33,18 +33,18 @@ jobs:
          npm start
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         sudo rm ./utils/rm/rm1 ./utils/rm/rm2
+         rm ./utils/rm/rm1 ./utils/rm/rm2
          #input./utils/rm/url
-         sudo mv ./utils/rm/url ./url #output./url
+         mv ./utils/rm/url ./url #output./url
          #input./url
          base64 ./url > ./utils/pool/check -w 0 #output./utils/pool/check
          #input./.github/url.sh
-         chmod +x ./.github/update-repo.sh
+         chmod +x ./.github/url.sh
          ./.github/url.sh > ./1
          cp ./url ./2
          cat 1 2 > 3 && rm 1 2
          base64 3 > https -w 0 && rm 3 #output./https
-    - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+    - run: chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
 
   et-job: #input./utils/pool/check ./utils/pool/pool
     name: Encode & Translate
