@@ -29,7 +29,7 @@ port: 7777      # default: 80
 cron_interval: 20       # default: 15  minutes
 show_remote_speed: true # default false
 
-healthcheck_timout:     # default 5
+healthcheck_timout:  2   # default 5
 healthcheck_connection: # default 100
 
 speedtest: false       # default false
