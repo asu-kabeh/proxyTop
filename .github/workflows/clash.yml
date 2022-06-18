@@ -87,7 +87,7 @@ jobs:
          git config --local user.name "GitHub Actions"
          git config --local user.email "actions@github.com"
     - name: subconverter #input./utils/clashcheck/check.yaml
-      run:   sudo chmod +x ./utils/subconverter/subconverter && cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
+      run:   sudo chmod +x ./utils/subconverter/subconverter && sudo chmod +x ./utils/clashcheck/check.yaml && cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
     - name: rm
       run: | #input./utils/subconverter/rm1
          mv ./utils/subconverter/rm1 ./utils/rm/rm1
