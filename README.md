@@ -142,7 +142,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `4583`
+合并节点总数: `4600`
 [节点链接](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -155,7 +155,7 @@
 - [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `75`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
 - [ssrsub/ssr](https://github.com/ssrsub/ssr), 节点数量: `121`
-- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `118`
+- [yu-steven/openit](https://github.com/yu-steven/openit), 节点数量: `135`
 - [iwxf/free-v2ray](https://github.com/iwxf/free-v2ray), 节点数量: `8`
 - [gooooooooooooogle/Clash-Config](https://github.com/gooooooooooooogle/Clash-Config), 节点数量: `42`
 - [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), 节点数量: `48`
