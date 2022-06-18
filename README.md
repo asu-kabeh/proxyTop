@@ -142,7 +142,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `4583`
+合并节点总数: `4544`
 [节点链接](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -174,7 +174,7 @@
 - [parkerpa/jsfxs](https://github.com/parkerpa/jsfxs), 节点数量: `582`
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `16`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
-- [my](https://github.com/reny311), 节点数量: `1032`
+- [my](https://github.com/reny311), 节点数量: `993`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
 - [univstar](https://t.me/univstar), 节点数量: `144`
 
