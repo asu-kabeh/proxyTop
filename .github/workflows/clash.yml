@@ -6,8 +6,34 @@ on:
   workflow_dispatch:
 
 jobs:
-  rm-job: #input./utils/clashcheck/check.yaml
+ cc-job: #input./utils/clashcheck/config.yaml
+    name: ClashCheck
+    needs: cl-job
+    # runs-on: self-hosted #python git pip和镜像
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: init
+      run: | 
+         git config pull.rebase false
+         git config --local user.name "GitHub Actions"
+         git config --local user.email "actions@github.com"
+         # pip config set local.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    - name: requirements.txt
+      run: pip install -r ./utils/clashcheck/requirements.txt
+
+    - name: main.py
+      run: cd ./utils/clashcheck/ && sudo chmod +x ./clash-linuxamd64 && python main.py && python main.py
+    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml
+    - run: ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml;重复步骤以缓解有概率的push失败
+rm-job: #input./utils/clashcheck/check.yaml
     name: rm
+    needs: cc-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -26,17 +52,14 @@ jobs:
       run:   sudo chmod +x ./utils/subconverter/subconverter && cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
     - name: rm
       run: | #input./utils/subconverter/rm1
-         chmod +x ./.github/update-repo.sh
          mv ./utils/subconverter/rm1 ./utils/rm/rm1
-         sudo chmod +x ./utils/rm/location.js
-         sudo chmod +x ./utils/rm/index.js
          cd ./utils/rm/
          #input./utils/rm/rm1
          base64 -d rm1 > rm2 #output./utils/rm/rm2
          sudo npm install
          #input./utils/rm/package-lock.json
          #input./utils/rm/rm2
-         npm start
+         sudo npm start
          #output./utils/rm/url
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
@@ -54,7 +77,7 @@ jobs:
          cat 1 2 > 3 && rm 1 2 #output./3
          #input./3
          base64 3 > https -w 0 && rm 3 #output./https
-    - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
 
   et-job: #input./utils/pool/check ./utils/pool/pool
     name: Encode & Translate
@@ -73,8 +96,9 @@ jobs:
     - name: subconverter
       run: | #input./utils/pool/check ./utils/pool/pool ./utils/clashcheck/check.yaml
          sudo chmod +x ./utils/subconverter/subconverter && ./utils/subconverter/subconverter -g 
+         sudo chmod +x ./long && sudo chmod +x ./Clash.yaml
          #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
-         mv ./utils/subconverter/long ./long || true
+         sudo mv ./utils/subconverter/long ./long || true
          sudo mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
          sudo rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
-    - run: ./.github/update-repo.sh || true   #output./long ./Clash.yaml
+    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./long ./Clash.yaml
