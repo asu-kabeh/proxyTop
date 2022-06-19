@@ -116,7 +116,6 @@ jobs:
          #input./3
          base64 3 > https -w 0 && rm 3 #output./https
     - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
-
   et-job: #input./utils/pool/check ./utils/pool/pool
     name: Encode & Translate
     needs: rm-job
