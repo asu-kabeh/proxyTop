@@ -1,14 +1,14 @@
 name: speedtest
 
 # 触发条件
-on:
+on: 
   workflow_dispatch:
-
   push:
     paths:
       - './sub/sub_merge_base64.txt'
   schedule:
-    - cron: '*/60 */11 * * *'
+    - cron: '*/32 0-14 * * *'
+    - cron: '51 14-23 * * *'
   
 jobs:
   deploy:
