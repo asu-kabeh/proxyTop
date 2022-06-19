@@ -1,7 +1,9 @@
 proxies:
-  - {name: 🇭🇰HK-8.210.127.214-062, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 8.210.127.214}}
-  - {name: 🇭🇰HK-43.154.114.208-066, server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 34.215.130.186}}
-  - {name: 🇭🇰HK-210.3.157.178-067, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
-  - {name: 🇭🇰HK-210.3.157.192-084, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
-  - {name: 🇭🇰HK-20.187.113.231-091, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰HK-20.187.113.231-092, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰HK-210.3.157.178-044, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
+  - {name: 🇭🇰HK-119.28.92.125-065, server: 119.28.92.125, port: 7654, type: vmess, uuid: 9481e525-557b-485d-8b64-ec14270974d2, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 34.215.130.186}}
+  - {name: 🇭🇰HK-8.210.127.214-066, server: 8.210.127.214, port: 443, type: vmess, uuid: 5b00bd34-a2a7-4471-8b17-3f4768ac0330, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 8.210.127.214}}
+  - {name: 🇭🇰HK-43.154.114.208-069, server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 34.215.130.186}}
+  - {name: 🇭🇰HK-210.3.157.192-083, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
+  - {name: 🇭🇰HK-20.187.113.231-091, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰HK-20.187.113.231-092, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰HK-182.160.12.239-098, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: cdn.qchwnd.moe}}
