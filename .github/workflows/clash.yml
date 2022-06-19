@@ -130,7 +130,6 @@ jobs:
          git config --local user.email "actions@github.com"
     - name: subconverter
       run: | #input./utils/pool/check ./utils/pool/pool ./utils/clashcheck/check.yaml
-         sudo chmod +x ./long && sudo chmod +x ./Clash.yaml
          ./utils/subconverter/subconverter -g 
          #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
          mv ./utils/subconverter/long ./long || true
