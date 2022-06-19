@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `12835`
+合并节点总数: `13220`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -179,9 +179,9 @@
 - [songkaik/Sub](https://github.com/songkaik/Sub), 节点数量: `0`
 - [yosefwang/subscription](https://github.com/yosefwang/subscription), 节点数量: `0`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
-- [my](https://github.com/reny311), 节点数量: `1125`
-- [openit's proxy pool](open.ml), 节点数量: `4309`
-- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `446`
+- [my](https://github.com/reny311), 节点数量: `1109`
+- [openit's proxy pool](open.ml), 节点数量: `4696`
+- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `460`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
 - [univstar](https://t.me/univstar), 节点数量: `67`
 
