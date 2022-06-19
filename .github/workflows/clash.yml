@@ -78,8 +78,7 @@ jobs:
       with:
         node-version: 16
     - name: Timezone
-      run: |
-         timedatectl set-timezone 'Asia/Shanghai'
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: git init
       run: | 
          git config pull.rebase false
