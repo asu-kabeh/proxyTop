@@ -55,7 +55,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Timezone
-      run: timedatectl set-timezone 'Asia/Shanghai'
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - name: init
       run: | 
          git config pull.rebase false
