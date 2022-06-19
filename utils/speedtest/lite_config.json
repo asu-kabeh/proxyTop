@@ -6,7 +6,7 @@
     "concurrency":16,
     "testMode":2,
     "subscription":"https://raw.githubusercontent.com/reny311/proxyTop/master/long",
-    "timeout":8,
+    "timeout":3,
     "language":"en",
     "fontSize":24,
     "theme":"rainbow",
