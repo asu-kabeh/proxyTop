@@ -135,7 +135,7 @@ jobs:
          mv ./utils/subconverter/long ./long || true
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
          rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
-    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./long ./Clash.yaml
+    - run: ./.github/update-repo.sh || true   #output./long ./Clash.yaml
   sp-job:
     name: sp
     needs: et-job
