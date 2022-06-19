@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `13651`
+合并节点总数: `13505`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -148,7 +148,7 @@
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `427`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `127`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `52`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `112`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `119`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
 - [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `75`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
@@ -166,24 +166,24 @@
 - [tomdegnan/clashrule](https://github.com/tomdegnan/clashrule), 节点数量: `214`
 - [TG@getv2ray](https://t.me/getv2ray), 节点数量: `0`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `47`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `197`
+- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `194`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `33`
 - [KYLELI1991/sysucc](https://github.com/KYLELI1991/sysucc), 节点数量: `0`
 - [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `24`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `48`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `53`
 - [moneyfly1/sublist](https://github.com/moneyfly1/sublist), 节点数量: `115`
-- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `52`
+- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `19`
 - [ok1991/v2ray](https://github.com/ok1991/v2ray), 节点数量: `39`
 - [parkerpa/jsfxs](https://github.com/parkerpa/jsfxs), 节点数量: `582`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `19`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `11`
 - [songkaik/Sub](https://github.com/songkaik/Sub), 节点数量: `0`
 - [yosefwang/subscription](https://github.com/yosefwang/subscription), 节点数量: `0`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
-- [my](https://github.com/reny311), 节点数量: `1059`
+- [my](https://github.com/reny311), 节点数量: `1024`
 - [openit's proxy pool](open.ml), 节点数量: `3605`
-- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `2043`
+- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `2035`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
-- [univstar](https://t.me/univstar), 节点数量: `174`
+- [univstar](https://t.me/univstar), 节点数量: `103`
 
 ## 客户端选择
 ### 主流桌面客户端
