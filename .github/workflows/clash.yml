@@ -138,6 +138,7 @@ jobs:
     - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./long ./Clash.yaml
   sp-job:
     name: sp
+    needs: et-job
     runs-on : ubuntu-latest
     steps:
     - uses: actions/checkout@v2
