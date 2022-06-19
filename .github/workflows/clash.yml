@@ -46,7 +46,7 @@ jobs:
         branch: master
   cc-job: #input./utils/clashcheck/config.yaml
     name: ClashCheck
-    needs: me-job
+    # needs: me-job
     # runs-on: self-hosted #python git pip和镜像
     runs-on: ubuntu-latest
     steps: 
@@ -70,7 +70,7 @@ jobs:
 
   rm-job: #input./utils/clashcheck/check.yaml
     name: rm
-    needs: cc-job
+    # needs: cc-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
