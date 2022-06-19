@@ -21,7 +21,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
     - name: 设置时区
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      run: timedatectl set-timezone 'Asia/Shanghai'
     - name: 安装依赖
       run: |
         pip install -r ./utils/requirements.txt
@@ -55,7 +55,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Timezone
-      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+      run: timedatectl set-timezone 'Asia/Shanghai'
     - name: init
       run: | 
          git config pull.rebase false
