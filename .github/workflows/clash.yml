@@ -64,11 +64,10 @@ jobs:
          # pip config set local.index-url https://pypi.tuna.tsinghua.edu.cn/simple
     - name: requirements.txt
       run: pip install -r ./utils/clashcheck/requirements.txt
-
     - name: main.py
-      run: cd ./utils/clashcheck/ && sudo chmod +x ./clash-linuxamd64 && python main.py && python main.py
-    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml
-    - run: ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml;重复步骤以缓解有概率的push失败
+      run: cd ./utils/clashcheck/ && python main.py && python main.py && python main.py
+    - run: ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml
+
   rm-job: #input./utils/clashcheck/check.yaml
     name: rm
     needs: cc-job
@@ -80,42 +79,42 @@ jobs:
         node-version: 16
     - name: Timezone
       run: |
-            sudo timedatectl set-timezone 'Asia/Shanghai'
+         timedatectl set-timezone 'Asia/Shanghai'
     - name: git init
       run: | 
          git config pull.rebase false
          git config --local user.name "GitHub Actions"
          git config --local user.email "actions@github.com"
     - name: subconverter #input./utils/clashcheck/check.yaml
-      run:   sudo chmod +x ./utils/subconverter/subconverter && sudo chmod +x ./utils/clashcheck/check.yaml && cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
+      run: cd ./utils/subconverter/ && ./subconverter -g --artifact "rm"
     - name: rm
       run: | #input./utils/subconverter/rm1
          mv ./utils/subconverter/rm1 ./utils/rm/rm1
          cd ./utils/rm/
          #input./utils/rm/rm1
          base64 -d rm1 > rm2 #output./utils/rm/rm2
-         sudo npm install
+         npm install
          #input./utils/rm/package-lock.json
          #input./utils/rm/rm2
-         sudo npm start
+         npm start
          #output./utils/rm/url
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         sudo rm ./utils/rm/rm1 ./utils/rm/rm2
+         rm ./utils/rm/rm1 ./utils/rm/rm2
          #input./utils/rm/url
-         sudo mv ./utils/rm/url ./url #output./url
+         mv ./utils/rm/url ./url #output./url
          #input./url
          base64 ./url > ./utils/pool/check -w 0 #output./utils/pool/check
          #input./.github/url.sh
-         sudo chmod +x ./.github/url.sh
          ./.github/url.sh > ./1 #output./1
          #input./url
-         sudo cp ./url ./2 #output./2
+         cp ./url ./2 #output./2
          #input./1 ./2
          cat 1 2 > 3 && rm 1 2 #output./3
          #input./3
-         base64 3 > https -w 0 && rm 3 #output./https
-    - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+         base64 3 > https -w 0 && rm 3 #output./https ./url
+    - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+
   et-job: #input./utils/pool/check ./utils/pool/pool
     name: Encode & Translate
     needs: rm-job
@@ -132,10 +131,9 @@ jobs:
          git config --local user.email "actions@github.com"
     - name: subconverter
       run: | #input./utils/pool/check ./utils/pool/pool ./utils/clashcheck/check.yaml
-         sudo chmod +x ./utils/subconverter/subconverter && ./utils/subconverter/subconverter -g 
-         sudo chmod +x ./long && sudo chmod +x ./Clash.yaml
+         ./utils/subconverter/subconverter -g 
          #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
-         sudo mv ./utils/subconverter/long ./long || true
-         sudo mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
-         sudo rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
+         mv ./utils/subconverter/long ./long || true
+         mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
+         rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
     - run: sudo chmod +x ./.github/update-repo.sh && ./.github/update-repo.sh || true   #output./long ./Clash.yaml
