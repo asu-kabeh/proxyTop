@@ -1,9 +1,10 @@
 proxies:
-  - {name: 🇸🇬SG-188.166.245.14-055, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
-  - {name: 🇸🇬SG-20.212.104.127-056, server: 0001.sg.genzpn.com, port: 80, type: vmess, uuid: 4f4418cd-385c-4203-a323-1b4d2be8e495, alterId: 0, cipher: auto, skip-cert-vertify: true, network: ws, ws-path: /, tls: false, ws-headers: {Host: 0001.sg.genzpn.com}}
-  - {name: 🇸🇬SG-15.235.141.203-057, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
-  - {name: 🇸🇬SG-139.162.51.114-059, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true}
-  - {name: 🇸🇬SG-81.90.188.59-065, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 81.90.188.59}}
-  - {name: 🇸🇬SG-128.199.198.241-066, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
-  - {name: 🇸🇬SG-129.226.89.77-079, server: 129.226.89.77, port: 13753, type: vmess, uuid: 583b24ce-25b8-4f16-c033-9629d48be372, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 129.226.89.77}}
-  - {name: 🇸🇬SG-172.105.120.73-099, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true}
+  - {name: 🇸🇬SG-139.162.51.114-047, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true}
+  - {name: 🇸🇬SG-188.166.245.14-049, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true}
+  - {name: 🇸🇬SG-128.199.198.241-052, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true}
+  - {name: 🇸🇬SG-81.90.188.59-056, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 81.90.188.59}}
+  - {name: 🇸🇬SG-129.226.89.77-064, server: 129.226.89.77, port: 13753, type: vmess, uuid: 583b24ce-25b8-4f16-c033-9629d48be372, alterId: 0, cipher: auto, skip-cert-vertify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 129.226.89.77}}
+  - {name: 🇸🇬SG-15.235.141.203-085, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true}
+  - {name: 🇸🇬SG-139.162.61.193-088, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true}
+  - {name: 🇸🇬SG-172.105.120.73-093, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true}
+  - {name: 🇸🇬SG-172.104.177.105-099, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true}
