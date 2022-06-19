@@ -1,7 +1,7 @@
 #准备好所需文件
 wget -O clash.gz https://github.com/Dreamacro/clash/releases/download/v1.10.6/clash-linux-amd64-v1.10.6.gz
 gunzip clash.gz
-wget -O lite.gz https://github.com/alanbobs999/LiteSpeedTest/releases/download/v0.9.1/lite-linux-amd64-v0.9.1.gz
+wget -O lite.gz https://github.com/reny311/proxyTop/releases/download/software/lite-linux-amd64-v0.10.0.gz
 gunzip lite.gz
 wget -O clash_config.yml https://raw.githubusercontent.com/reny311/proxyTop/master/utils/speedtest/clash_config.yml
 wget -O proxychains.conf https://raw.githubusercontent.com/reny311/proxyTop/master/utils/speedtest/proxychains.conf
