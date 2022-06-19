@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `12489`
+合并节点总数: `12541`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -172,16 +172,16 @@
 - [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `29`
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), 节点数量: `53`
 - [moneyfly1/sublist](https://github.com/moneyfly1/sublist), 节点数量: `115`
-- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `19`
+- [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `20`
 - [ok1991/v2ray](https://github.com/ok1991/v2ray), 节点数量: `39`
 - [parkerpa/jsfxs](https://github.com/parkerpa/jsfxs), 节点数量: `582`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `23`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `27`
 - [songkaik/Sub](https://github.com/songkaik/Sub), 节点数量: `0`
 - [yosefwang/subscription](https://github.com/yosefwang/subscription), 节点数量: `0`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
-- [my](https://github.com/reny311), 节点数量: `1048`
-- [openit's proxy pool](open.ml), 节点数量: `4179`
-- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `357`
+- [my](https://github.com/reny311), 节点数量: `1050`
+- [openit's proxy pool](open.ml), 节点数量: `4173`
+- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `408`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
 - [univstar](https://t.me/univstar), 节点数量: `128`
 
