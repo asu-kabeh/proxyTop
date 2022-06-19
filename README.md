@@ -140,13 +140,13 @@
 </details>
 
 ### 所有节点
-合并节点总数: `11848`
+合并节点总数: `12170`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `88`
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `427`
-- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `127`
+- [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `132`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `46`
 - [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `83`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
@@ -180,8 +180,8 @@
 - [yosefwang/subscription](https://github.com/yosefwang/subscription), 节点数量: `0`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
 - [my](https://github.com/reny311), 节点数量: `1071`
-- [openit's proxy pool](open.ml), 节点数量: `3936`
-- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `1`
+- [openit's proxy pool](open.ml), 节点数量: `4179`
+- [jingfu](https://kingfu.herokuapp.com/), 节点数量: `75`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
 - [univstar](https://t.me/univstar), 节点数量: `128`
 
