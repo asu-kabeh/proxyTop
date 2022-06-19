@@ -1,6 +1,5 @@
 vmess://eyJ2IjoiMiIsInBzIjoidW5rbm93biAxLXVuaXZzdGFyIiwiYWRkIjoiMDAwMS5oY20uZ2VuenBuLmNvbSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI0ZjQ0MThjZC0zODVjLTQyMDMtYTMyMy0xYjRkMmJlOGU0OTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJkbC5vcHMua2d2bi5nYXJlbmFub3cuY29tLmFrYW1haXplZC5uZXQiLCJ0bHMiOiIifQ==
-vmess://eyJ2IjoiMiIsInBzIjoidW5rbm93biAyLXVuaXZzdGFyIiwiYWRkIjoiMDAwMS5obi5nZW56cG4uY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRmNDQxOGNkLTM4NWMtNDIwMy1hMzIzLTFiNGQyYmU4ZTQ5NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjAwMDEuaG4uZ2VuenBuLmNvbSIsInRscyI6IiJ9
-trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:50992?allowInsecure=1&sni=sg1.nodegz.top#unknown 3-univstar
+trojan://9a992a09-e9b1-3fe1-a822-e79bd80d3874@transfer3.gzfxd.xyz:50992?allowInsecure=1&sni=sg1.nodegz.top#unknown 2-univstar
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HpvCfh7pBVSAxLXVuaXZzdGFyIiwiYWRkIjoiMTI5LjE1NC40OC4yMjEiLCJwb3J0IjoiMzczNzIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNmY0NDU0YTktZTczMi00NmM2LWM1MGYtNzNmMTNkYTMxZjdiIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IjM0LjIxNS4xMzAuMTg2IiwidGxzIjoiIn0=
 trojan://a580d839-ee41-4df1-bf03-6789dca32e30@jgwdb1.gaox.ml:443?allowInsecure=1&sni=jgwdb1.gaox.ml#🇦🇺AU 2-univstar
 trojan://9eef43d9-712e-4850-bb7a-12b279a96de5@kk.2046.gq:4443?allowInsecure=1&sni=kk.2046.gq#🇦🇺AU 3-univstar
@@ -30,6 +29,7 @@ trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk01.yiyodns.xyz:443?allowInsec
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk02.yiyodns.xyz:443?allowInsecure=1#🇭🇰HK 6-univstar
 trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20711?allowInsecure=1&sni=ssl.ssl12.xyz#🇭🇰HK 7-univstar
 trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20710?allowInsecure=1&sni=ssl.ssl12.xyz#🇭🇰HK 8-univstar
+trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@azhk.r.optage.moe:44605?allowInsecure=1#🇭🇰HK 9-univstar
 vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7VKUCAxLXVuaXZzdGFyIiwiYWRkIjoiNDMuMTU0LjExNC4yMDgiLCJwb3J0IjoiMzI0NSIsInR5cGUiOiJub25lIiwiaWQiOiJlNGExNWIxZC04ZGZkLTRiZDctYWIzMy0wNmM4Y2QxNzRjMGIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiMzQuMjE1LjEzMC4xODYiLCJ0bHMiOiIifQ==
 trojan://4f4418cd-385c-4203-a323-1b4d2be8e495@0001.kr.genzpn.com:443?allowInsecure=1#🇰🇷KR 1-univstar
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HsPCfh7dLUiAyLXVuaXZzdGFyIiwiYWRkIjoiMDAwMS5rci5nZW56cG4uY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRmNDQxOGNkLTM4NWMtNDIwMy1hMzIzLTFiNGQyYmU4ZTQ5NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjAwMDEua3IuZ2VuenBuLmNvbSIsInRscyI6IiJ9
@@ -133,7 +133,7 @@ vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVUyA3NS11bml2c3RhciIsImFkZCI6IjAwMDEudXMu
 trojan://4f4418cd-385c-4203-a323-1b4d2be8e495@0001.us.genzpn.com:443?allowInsecure=1#🇺🇸US 76-univstar
 trojan://6226db25-a814-4010-9c2e-3a36069ef22f@20.24.202.172:443?allowInsecure=1#🇺🇸US 77-univstar
 trojan://6226db25-a814-4010-9c2e-3a36069ef22f@20.24.90.223:443?allowInsecure=1#🇺🇸US 78-univstar
-trojan://6c38efa1-395a-4dad-846e-e7bcad9ea569@azhk.r.optage.moe:44605?allowInsecure=1#🇺🇸US 79-univstar
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVUyA4MC11bml2c3RhciIsImFkZCI6IjAwMDEuc2cuZ2VuenBuLmNvbSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI0ZjQ0MThjZC0zODVjLTQyMDMtYTMyMy0xYjRkMmJlOGU0OTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIwMDAxLnNnLmdlbnpwbi5jb20iLCJ0bHMiOiIifQ==
-trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=1#🇺🇸US 81-univstar
-trojan://4f4418cd-385c-4203-a323-1b4d2be8e495@0001.au.genzpn.com:443?allowInsecure=1#🇺🇸US 82-univstar
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7hVUyA3OS11bml2c3RhciIsImFkZCI6IjAwMDEuc2cuZ2VuenBuLmNvbSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI0ZjQ0MThjZC0zODVjLTQyMDMtYTMyMy0xYjRkMmJlOGU0OTUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIwMDAxLnNnLmdlbnpwbi5jb20iLCJ0bHMiOiIifQ==
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@jgwdb4.gaox.ml:443?allowInsecure=1#🇺🇸US 80-univstar
+trojan://4f4418cd-385c-4203-a323-1b4d2be8e495@0001.au.genzpn.com:443?allowInsecure=1#🇺🇸US 81-univstar
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hu/Cfh7NWTiAxLXVuaXZzdGFyIiwiYWRkIjoiMDAwMS5obi5nZW56cG4uY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRmNDQxOGNkLTM4NWMtNDIwMy1hMzIzLTFiNGQyYmU4ZTQ5NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjAwMDEuaG4uZ2VuenBuLmNvbSIsInRscyI6IiJ9
