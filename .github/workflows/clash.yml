@@ -85,7 +85,7 @@ jobs:
          git config --local user.name "GitHub Actions"
          git config --local user.email "actions@github.com"
     - name: subconverter #input./utils/clashcheck/check.yaml
-      run: cd ./utils/subconverter/ && rm -rf./cache && ./subconverter -g --artifact "rm"
+      run: cd ./utils/subconverter/ && rm -rf cache && ./subconverter -g --artifact "rm"
     - name: rm
       run: | #input./utils/subconverter/rm1
          mv ./utils/subconverter/rm1 ./utils/rm/rm1
