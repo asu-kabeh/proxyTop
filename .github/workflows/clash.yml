@@ -96,8 +96,8 @@ jobs:
          base64 -d rm1 > rm2 #output./utils/rm/rm2
          sudo npm install #input./utils/rm/package-lock.json
          #input./utils/rm/rm2
-         sudo npm audit fix --force
-         sudo npm start #output./utils/rm/out
+         npm cache verify
+         npm start #output./utils/rm/out
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
          rm ./utils/rm/rm1 ./utils/rm/rm2 #./utils/rm/out #./utils/rm/config.yml #清理垃圾
