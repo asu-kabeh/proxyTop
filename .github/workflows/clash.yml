@@ -132,7 +132,7 @@ jobs:
          git config --local user.email "actions@github.com"
     - name: subconverter
       run: | #input./utils/pool/check ./utils/pool/pool ./utils/clashcheck/check.yaml
-         ./utils/subconverter/subconverter -g 
+         ./utils/subconverter/subconverter -g --artifact "long" && ./utils/subconverter/subconverter -g --artifact "clash"
          #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
          mv ./utils/subconverter/long ./long || true
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
