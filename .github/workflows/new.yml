@@ -91,14 +91,14 @@ jobs:
          mv ./utils/subconverter/ch ./utils/rm/ch
          cd ./utils/rm/
          #input./utils/rm/ch
-         base64 -d ch > ch2 #output./utils/rm/rm2
+         base64 -d ch > rm2 #output./utils/rm/rm2
          sudo npm install #input./utils/rm/package-lock.json
          #input./utils/rm/rm2
          npm cache verify
          npm start #output./utils/rm/out
     - name: url & https & check
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
-         rm ./utils/rm/ch ./utils/rm/ch2 #./utils/rm/out #./utils/rm/config.yml #清理垃圾
+         rm ./utils/rm/ch ./utils/rm/rm2 #./utils/rm/out #./utils/rm/config.yml #清理垃圾
          #input./utils/rm/out
          rm ./sub/sub_merge_yaml.yml ./sub/sub_merge_base64.txt
          mv ./utils/rm/out ./sub/sub_merge_yaml.ym #output./url
