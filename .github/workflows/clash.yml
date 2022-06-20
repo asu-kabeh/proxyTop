@@ -1,8 +1,10 @@
 name: clash
 on: 
   schedule:
-    - cron: '*/32 0-14 * * *'
-    - cron: '*/51 14-23 * * *'
+    - cron: '*/32 0-8 * * *'   #上午8:00 - 下午4:00
+    - cron: '*/22 8-14 * * *'  #下午4:00 - 下午10:00
+    - cron: '*/52 14-21 * * *' #下午10:00 - 次日凌晨5:00
+    - cron: '*/22 21-23 * * *' #次日凌晨5:00 - 次日上午8:00
   workflow_dispatch:
 
 jobs:
@@ -111,3 +113,24 @@ jobs:
          #input./3
          base64 3 > https -w 0 && rm 3 #output./https
     - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+  et-job: 
+    name: Encode & Translate
+    needs: rm-job
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: init
+      run: | 
+         git config pull.rebase false
+         git config --local user.name "GitHub Actions"
+         git config --local user.email "actions@github.com"
+    - name: subconverter
+      run: | #input./utils/pool/check ./utils/pool/pool ./utils/clashcheck/check.yaml
+         ./utils/subconverter/subconverter -g 
+         #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
+         mv ./utils/subconverter/long ./long || true
+         mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
+         rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
+    - run: ./.github/update-repo.sh || true   #output./long ./Clash.yaml
