@@ -5,176 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: BD 1-tg univstar, server: kh1.nodegz.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, skip-cert-verify: true, udp: true}
+  - {name: BD 1-tg univstar, server: kh1.nodegz.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, sni: kh1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: CZ 1-tg univstar, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, skip-cert-verify: true, udp: true}
   - {name: CZ 2-tg univstar, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, skip-cert-verify: true, udp: true}
   - {name: HU 1-tg+univstar, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: UA 1-tg univstar, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, skip-cert-verify: true, udp: true}
   - {name: UA 2-tg univstar, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, skip-cert-verify: true, udp: true}
   - {name: UA 3-tg+univstar, server: 185.202.103.202, port: 22148, type: vmess, uuid: 13c29b2a-3425-4425-9e73-a1ead7bf9728, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: UA 4-tg univstar, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
+  - {name: UA 4-tg univstar, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
   - {name: UA 5-tg univstar, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, skip-cert-verify: true, udp: true}
-  - {name: UA 6-tg univstar, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, skip-cert-verify: true, udp: true}
-  - {name: UA 7-tg+univstar, server: 94.74.121.193, port: 8888, type: vmess, uuid: 3dca2de0-0459-496f-8819-e8003744164c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UA 6-tg+univstar, server: 94.74.121.193, port: 8888, type: vmess, uuid: 3dca2de0-0459-496f-8819-e8003744164c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UA 7-tg univstar, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, skip-cert-verify: true, udp: true}
   - {name: unknown 1-tg univstar, server: 103.173.255.228, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 2-tg univstar, server: 103.173.255.21, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 3-tg univstar, server: 103.173.255.234, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 4-tg univstar, server: 103.173.255.127, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 5-tg univstar, server: 103.173.155.72, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: unknown 6-tg univstar, server: 103.173.255.127, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: unknown 7-tg univstar, server: 103.173.255.21, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: unknown 8-tg univstar, server: 103.173.255.228, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
+  - {name: unknown 2-tg univstar, server: 103.173.155.72, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: unknown 3-tg univstar, server: 103.173.255.127, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: unknown 4-tg univstar, server: 103.173.255.21, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: unknown 5-tg univstar, server: 103.173.255.234, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: unknown 6-tg univstar, server: 103.173.255.21, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 1-tg+univstar, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 2-tg univstar, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 3-tg univstar, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺 AU 4-tg univstar, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 AU 5-tg univstar, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 1-tg univstar, server: 165.154.243.208, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 2-tg univstar, server: 165.154.253.34, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 3-tg univstar, server: 165.154.253.49, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 CA 4-tg univstar, server: 165.154.253.49, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 1-tg univstar, server: 165.154.253.49, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 2-tg univstar, server: 165.154.253.49, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 3-tg univstar, server: 165.154.243.208, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 4-tg univstar, server: 165.154.253.34, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
   - {name: 🇨🇦 CA 5-tg univstar, server: 165.154.253.34, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 1-tg univstar, server: hnyd.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 10-tg univstar, server: gzyd2.xxcv.cc, port: 20160, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 11-tg univstar, server: gzyd2.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 12-tg univstar, server: hnyd.xxcv.cc, port: 20110, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 13-tg univstar, server: gzyd2.xxcv.cc, port: 20110, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 14-tg univstar, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 15-tg univstar, server: gzyd2.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 2-tg univstar, server: hnyd.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 3-tg univstar, server: gzyd1.xxcv.cc, port: 20120, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 4-tg univstar, server: hnyd.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 5-tg univstar, server: hnyd.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA 6-tg univstar, server: 165.154.243.208, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 1-tg univstar, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 10-tg univstar, server: gzyd1.xxcv.cc, port: 30170, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 11-tg univstar, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 2-tg univstar, server: gzyd1.xxcv.cc, port: 30010, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 3-tg univstar, server: gzyd1.xxcv.cc, port: 30130, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 4-tg univstar, server: gzyd1.xxcv.cc, port: 20120, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 5-tg univstar, server: gzyd1.xxcv.cc, port: 30120, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 CN 6-tg univstar, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 7-tg univstar, server: hnyd.xxcv.cc, port: 30080, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 8-tg univstar, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 CN 9-tg univstar, server: hnyd.xxcv.cc, port: 20160, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 7-tg univstar, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 8-tg univstar, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 CN 9-tg univstar, server: gzyd1.xxcv.cc, port: 20160, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
   - {name: 🇨🇳 TW 1-tg+univstar, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 61.222.202.140}}, udp: true}
-  - {name: 🇨🇳 TW 2-tg univstar, server: hinet.xxcv.cc, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 TW 3-tg univstar, server: tw02.170809.xyz, port: 11170, type: trojan, password: 6093be36-2b2b-46b8-a52b-a23bb3716de7, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW 2-tg+univstar, server: 61.222.202.140, port: 15789, type: vmess, uuid: 4535e708-5988-4377-a083-755ed60d8068, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW 3-tg univstar, server: hinet.xxcv.cc, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW 4-tg univstar, server: tj-tw01.yiyodns.xyz, port: 443, type: trojan, password: 8c160526-9900-3a00-ad06-08ac76357b02, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 DE 1-tg+univstar, server: 5.183.32.187, port: 32169, type: vmess, uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 DE 2-tg univstar, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 1-tg univstar, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 GB 2-tg univstar, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE 3-tg univstar, server: 80.78.132.177, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 1-tg univstar, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB 2-tg univstar, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 3-tg univstar, server: gnailiad.tk, port: 50711, type: trojan, password: MyndlrnPKa, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 GB 4-tg univstar, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 1-tg univstar, server: tj-hk01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 2-tg univstar, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 3-tg univstar, server: fk.i809.ml, port: 11111, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 HK 4-tg univstar, server: scloud58.jafiyun.life, port: 22058, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 5-tg univstar, server: scloud55.jafiyun.life, port: 22055, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 6-tg univstar, server: scloud57.jafiyun.life, port: 22057, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud57.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 7-tg univstar, server: scloud56.jafiyun.life, port: 22056, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 8-tg univstar, server: azhk2.170809.xyz, port: 26991, type: trojan, password: 6093be36-2b2b-46b8-a52b-a23bb3716de7, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK 9-tg univstar, server: azhk1.170809.xyz, port: 60003, type: trojan, password: 6093be36-2b2b-46b8-a52b-a23bb3716de7, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 JP 1-tg+univstar, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 48C166B2-BFC2-512E-4D67-47C2F7B2CE5C, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp1.wanss.win}}, udp: true}
-  - {name: 🇯🇵 JP 2-tg univstar, server: 164.70.68.67, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 3-tg univstar, server: 203.138.98.199, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 4-tg univstar, server: ga.gnailiad.tk, port: 47994, type: trojan, password: Dq46HMCMNO, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 5-tg univstar, server: 615hk.fans8.xyz, port: 443, type: trojan, password: eea69c69-9989-4576-8b60-f6476e694bd7, sni: 615hk.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 6-tg+univstar, server: 43.155.94.84, port: 42024, type: vmess, uuid: 6b9a25b6-e369-424c-d5d7-75bd4dd26022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.155.94.84}}, udp: true}
-  - {name: 🇯🇵 JP 7-tg univstar, server: 164.70.68.67, port: 28443, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP 8-tg univstar, server: 8kr.pronetworklink.net, port: 443, type: trojan, password: ff2c6d27-aa53-45a5-8810-4af286933ae8, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 2-tg+univstar, server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 3-tg+univstar, server: 146.56.47.161, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 146.56.47.161}}, udp: true}
+  - {name: 🇯🇵 JP 4-tg univstar, server: 203.138.98.199, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 5-tg univstar, server: 164.70.68.67, port: 28000, type: trojan, password: 51da3d49-5fee-4ae6-bf1b-2c16ac41c764, sni: huayun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 6-tg univstar, server: ga.gnailiad.tk, port: 47994, type: trojan, password: Dq46HMCMNO, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 7-tg univstar, server: 8kr.pronetworklink.net, port: 443, type: trojan, password: ff2c6d27-aa53-45a5-8810-4af286933ae8, sni: 8kr.pronetworklink.net, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP 8-tg+univstar, server: 43.133.211.131, port: 19281, type: vmess, uuid: acc4aaa5-82d9-4222-b8ea-659a90916f3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.133.211.131}}, udp: true}
+  - {name: 🇯🇵 JP 9-tg+univstar, server: 43.133.211.131, port: 43768, type: vmess, uuid: 930d4660-4394-4670-b3f1-5d8276fb53e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 43.133.211.131}}, udp: true}
+  - {name: 🇳🇱 NL 1-tg univstar, server: ch1.nodegz.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, sni: ch1.nodegz.top, skip-cert-verify: true, udp: true}
   - {name: 🇷🇺 RU 1-tg+univstar, server: 46.17.42.135, port: 44368, type: vmess, uuid: 775a4a8c-36cb-499b-80ad-3dcaae1c2b70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 2-tg+univstar, server: 194.87.99.122, port: 23165, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 3-tg univstar, server: us1.nodegz.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 4-tg univstar, server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 5-tg univstar, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 RU 6-tg univstar, server: sg1.crunode.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 2-tg univstar, server: us1.nodegz.top, port: 443, type: trojan, password: 415a81c2-8a5c-37d1-8558-200be3c9cca9, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 3-tg univstar, server: sg1.crunode.top, port: 443, type: trojan, password: 1fa8243f-39db-38c3-a1c5-8c582c6857ac, sni: sg1.crunode.top, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 RU 4-tg univstar, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 1-tg univstar, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 2-tg univstar, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 3-tg univstar, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 2-tg univstar, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 3-tg univstar, server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 4-tg univstar, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 5-tg+univstar, server: 129.226.89.77, port: 13753, type: vmess, uuid: 583b24ce-25b8-4f16-c033-9629d48be372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG 6-tg+univstar, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 5-tg+univstar, server: 81.90.188.59, port: 41657, type: vmess, uuid: 930a425e-2fc8-4930-8735-141f6b237755, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG 6-tg+univstar, server: 129.226.89.77, port: 13753, type: vmess, uuid: 583b24ce-25b8-4f16-c033-9629d48be372, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 7-tg univstar, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG 8-tg univstar, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 1-tg+univstar, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 10-tg+univstar, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 11-tg univstar, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 12-tg univstar, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 13-tg univstar, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 14-tg univstar, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 15-tg+univstar, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 16-tg+univstar, server: 150.230.209.138, port: 18752, type: vmess, uuid: 30681150-4b22-4809-9fd9-2fe289a9cd9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 17-tg+univstar, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 18-tg+univstar, server: 168.138.208.145, port: 56816, type: vmess, uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 19-tg+univstar, server: 138.2.38.46, port: 25565, type: vmess, uuid: 49a1f87e-abf9-4180-8700-72fe502f3fae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 2-tg univstar, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 20-tg+univstar, server: 154.31.115.215, port: 13812, type: vmess, uuid: 3ac3ccc0-d97e-46cf-8700-52f317be1b17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 21-tg+univstar, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 22-tg+univstar, server: 154.31.115.216, port: 57990, type: vmess, uuid: 3300c50a-ecbb-4df0-bd92-8c2d29a08cbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 23-tg+univstar, server: 51.81.223.28, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 24-tg+univstar, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 25-tg+univstar, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 26-tg+univstar, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 27-tg+univstar, server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 28-tg+univstar, server: 51.81.223.23, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 10-tg univstar, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 11-tg univstar, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 12-tg+univstar, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 13-tg univstar, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 14-tg univstar, server: storage.starspace.link, port: 443, type: trojan, password: W8gVbKNAZlFzgGPn, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 15-tg univstar, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 16-tg+univstar, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 17-tg+univstar, server: 150.230.209.138, port: 18752, type: vmess, uuid: 30681150-4b22-4809-9fd9-2fe289a9cd9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 18-tg+univstar, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 19-tg+univstar, server: 168.138.208.145, port: 56816, type: vmess, uuid: 86aca19f-d23b-4f08-9677-a061b7282bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 2-tg+univstar, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 152.69.206.209}}, udp: true}
+  - {name: 🇺🇸 US 20-tg+univstar, server: 138.2.38.46, port: 25565, type: vmess, uuid: 49a1f87e-abf9-4180-8700-72fe502f3fae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 21-tg+univstar, server: 154.31.115.216, port: 57990, type: vmess, uuid: 3300c50a-ecbb-4df0-bd92-8c2d29a08cbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 22-tg+univstar, server: 154.31.115.215, port: 13812, type: vmess, uuid: 3ac3ccc0-d97e-46cf-8700-52f317be1b17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 23-tg+univstar, server: 152.69.199.111, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: www.youku.com, headers: {Host: 152.69.199.111}}, udp: true}
+  - {name: 🇺🇸 US 24-tg+univstar, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 25-tg+univstar, server: 51.81.223.23, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 26-tg+univstar, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 27-tg+univstar, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 28-tg+univstar, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 29-tg+univstar, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 3-tg univstar, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 30-tg+univstar, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 3-tg univstar, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 30-tg+univstar, server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 31-tg+univstar, server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US 32-tg+univstar, server: 51.81.223.9, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 33-tg+univstar, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 34-tg+univstar, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 35-tg+univstar, server: 51.81.223.16, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 36-tg+univstar, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 37-tg+univstar, server: 51.81.223.8, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 38-tg+univstar, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 39-tg+univstar, server: 51.81.223.30, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 4-tg+univstar, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 40-tg+univstar, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 41-tg+univstar, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 42-tg+univstar, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 43-tg+univstar, server: 51.81.223.35, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 44-tg+univstar, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 45-tg+univstar, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 46-tg+univstar, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}, udp: true}
-  - {name: 🇺🇸 US 47-tg+univstar, server: 143.198.130.21, port: 42382, type: vmess, uuid: 03b452a7-907b-4f77-8ca4-60250cc835bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 48-tg+univstar, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 49-tg+univstar, server: 192.210.231.59, port: 58164, type: vmess, uuid: 39a1dff4-9c7d-487b-9917-2f2c8e9572f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 5-tg+univstar, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 50-tg+univstar, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 51-tg+univstar, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 52-tg+univstar, server: 152.70.234.70, port: 26701, type: vmess, uuid: 05f824f3-4724-4344-b26b-9edd602874bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 53-tg univstar, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 54-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 55-tg univstar, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 56-tg univstar, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 57-tg+univstar, server: bwg2.gushidawang.cc, port: 57539, type: vmess, uuid: fcf7202c-bd1a-44e9-a25e-bf152f6e5c11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 58-tg univstar, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 59-tg univstar, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 6-tg+univstar, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 60-tg univstar, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 61-tg univstar, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 62-tg univstar, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 63-tg univstar, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 64-tg univstar, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 65-tg univstar, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 66-tg univstar, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 67-tg univstar, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 68-tg+univstar, server: 198.144.183.193, port: 36113, type: vmess, uuid: 6643747e-d583-4ee2-9cc5-14abd51f43d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.144.183.193}}, udp: true}
-  - {name: 🇺🇸 US 69-tg+univstar, server: 198.144.183.193, port: 11941, type: vmess, uuid: e8eab1a2-4563-484f-c18c-7b8a02397222, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.144.183.193}}, udp: true}
-  - {name: 🇺🇸 US 7-tg univstar, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 70-tg univstar, server: ga.gnailiad.ga, port: 23578, type: trojan, password: aBfOmU3irR, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 71-tg univstar, server: gnailiad.ga, port: 39208, type: trojan, password: swXgcgRW7p, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 72-tg univstar, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 73-tg univstar, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 74-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 75-tg univstar, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 76-tg+univstar, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 77-tg univstar, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 78-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 79-tg univstar, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 8-tg univstar, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 80-tg univstar, server: dk.i809.ml, port: 12083, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 81-tg univstar, server: gnailiad.gq, port: 11823, type: trojan, password: eVH5bAf8mx, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 82-tg univstar, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 83-tg univstar, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 84-tg univstar, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 85-tg univstar, server: us01.170809.xyz, port: 443, type: trojan, password: 6093be36-2b2b-46b8-a52b-a23bb3716de7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 86-tg univstar, server: zt3.godseven.xyz, port: 2087, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US 9-tg univstar, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 33-tg+univstar, server: 51.81.223.28, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 34-tg+univstar, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 35-tg+univstar, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 36-tg+univstar, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 37-tg+univstar, server: 51.81.223.16, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 38-tg+univstar, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 39-tg+univstar, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 4-tg univstar, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 40-tg+univstar, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 41-tg+univstar, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 42-tg+univstar, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 43-tg+univstar, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 44-tg+univstar, server: 51.81.223.35, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 45-tg+univstar, server: 51.81.223.8, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 46-tg+univstar, server: 51.81.223.30, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 47-tg+univstar, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 34.215.130.186}}, udp: true}
+  - {name: 🇺🇸 US 48-tg+univstar, server: 143.198.130.21, port: 42382, type: vmess, uuid: 03b452a7-907b-4f77-8ca4-60250cc835bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 49-tg+univstar, server: 150.230.43.106, port: 54829, type: vmess, uuid: f2b5c3ff-86c7-4efa-831f-ff0fcd7656a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 5-tg+univstar, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 50-tg+univstar, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 51-tg+univstar, server: 192.210.231.59, port: 58164, type: vmess, uuid: 39a1dff4-9c7d-487b-9917-2f2c8e9572f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 52-tg+univstar, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 53-tg+univstar, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 54-tg+univstar, server: hk6.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk6.ningmengshui.xyz}}, udp: true}
+  - {name: 🇺🇸 US 55-tg+univstar, server: 152.70.234.70, port: 26701, type: vmess, uuid: 05f824f3-4724-4344-b26b-9edd602874bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 56-tg univstar, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 57-tg univstar, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 58-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 59-tg+univstar, server: bwg2.gushidawang.cc, port: 57539, type: vmess, uuid: fcf7202c-bd1a-44e9-a25e-bf152f6e5c11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 6-tg univstar, server: silicon.starspace.link, port: 443, type: trojan, password: 4ZPDeqJ6g766UKDJ, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 60-tg univstar, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 61-tg univstar, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 62-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 63-tg univstar, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 64-tg univstar, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 65-tg univstar, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 66-tg univstar, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 67-tg univstar, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 68-tg univstar, server: 16us.pronetworklink.net, port: 443, type: trojan, password: 473b0dd5-3a33-4108-baa5-8957bb2d9394, sni: 16us.pronetworklink.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 69-tg univstar, server: mc.vpshax.ml, port: 443, type: trojan, password: 48ac743a-2d49-4191-b804-0c7fa7e01146, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 7-tg+univstar, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 70-tg univstar, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 71-tg univstar, server: rooms.starspace.link, port: 443, type: trojan, password: 5HfENR8nt2PR8reH, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 72-tg univstar, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 73-tg univstar, server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 74-tg univstar, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 75-tg univstar, server: gnailiad.ga, port: 39208, type: trojan, password: swXgcgRW7p, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 76-tg univstar, server: gnailiad.gq, port: 11823, type: trojan, password: eVH5bAf8mx, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 77-tg univstar, server: ga.gnailiad.ga, port: 23578, type: trojan, password: aBfOmU3irR, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 78-tg univstar, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 79-tg+univstar, server: 198.144.183.193, port: 11941, type: vmess, uuid: e8eab1a2-4563-484f-c18c-7b8a02397222, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.144.183.193}}, udp: true}
+  - {name: 🇺🇸 US 8-tg+univstar, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 80-tg+univstar, server: 198.144.183.193, port: 36113, type: vmess, uuid: 6643747e-d583-4ee2-9cc5-14abd51f43d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 198.144.183.193}}, udp: true}
+  - {name: 🇺🇸 US 81-tg univstar, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 82-tg univstar, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 83-tg univstar, server: scloud54.jafiyun.life, port: 22054, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud54.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 84-tg+univstar, server: 107.173.148.4, port: 46104, type: vmess, uuid: e4718aaa-ac48-40e5-e6e4-487df2baa451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 107.173.148.4}}, udp: true}
+  - {name: 🇺🇸 US 85-tg univstar, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 86-tg+univstar, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 87-tg univstar, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 88-tg univstar, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 89-tg univstar, server: scloud52.jafiyun.life, port: 22052, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 9-tg univstar, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US 90-tg univstar, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🌐 节点选择
     type: select
@@ -190,33 +185,27 @@ proxy-groups:
       - UA 3-tg+univstar
       - UA 4-tg univstar
       - UA 5-tg univstar
-      - UA 6-tg univstar
-      - UA 7-tg+univstar
+      - UA 6-tg+univstar
+      - UA 7-tg univstar
       - unknown 1-tg univstar
       - unknown 2-tg univstar
       - unknown 3-tg univstar
       - unknown 4-tg univstar
       - unknown 5-tg univstar
       - unknown 6-tg univstar
-      - unknown 7-tg univstar
-      - unknown 8-tg univstar
       - 🇦🇺 AU 1-tg+univstar
       - 🇦🇺 AU 2-tg univstar
       - 🇦🇺 AU 3-tg univstar
       - 🇦🇺 AU 4-tg univstar
-      - 🇦🇺 AU 5-tg univstar
       - 🇨🇦 CA 1-tg univstar
       - 🇨🇦 CA 2-tg univstar
       - 🇨🇦 CA 3-tg univstar
       - 🇨🇦 CA 4-tg univstar
       - 🇨🇦 CA 5-tg univstar
+      - 🇨🇦 CA 6-tg univstar
       - 🇨🇳 CN 1-tg univstar
       - 🇨🇳 CN 10-tg univstar
       - 🇨🇳 CN 11-tg univstar
-      - 🇨🇳 CN 12-tg univstar
-      - 🇨🇳 CN 13-tg univstar
-      - 🇨🇳 CN 14-tg univstar
-      - 🇨🇳 CN 15-tg univstar
       - 🇨🇳 CN 2-tg univstar
       - 🇨🇳 CN 3-tg univstar
       - 🇨🇳 CN 4-tg univstar
@@ -226,10 +215,12 @@ proxy-groups:
       - 🇨🇳 CN 8-tg univstar
       - 🇨🇳 CN 9-tg univstar
       - 🇨🇳 TW 1-tg+univstar
-      - 🇨🇳 TW 2-tg univstar
+      - 🇨🇳 TW 2-tg+univstar
       - 🇨🇳 TW 3-tg univstar
+      - 🇨🇳 TW 4-tg univstar
       - 🇩🇪 DE 1-tg+univstar
       - 🇩🇪 DE 2-tg univstar
+      - 🇩🇪 DE 3-tg univstar
       - 🇬🇧 GB 1-tg univstar
       - 🇬🇧 GB 2-tg univstar
       - 🇬🇧 GB 3-tg univstar
@@ -238,25 +229,20 @@ proxy-groups:
       - 🇭🇰 HK 2-tg univstar
       - 🇭🇰 HK 3-tg univstar
       - 🇭🇰 HK 4-tg univstar
-      - 🇭🇰 HK 5-tg univstar
-      - 🇭🇰 HK 6-tg univstar
-      - 🇭🇰 HK 7-tg univstar
-      - 🇭🇰 HK 8-tg univstar
-      - 🇭🇰 HK 9-tg univstar
       - 🇯🇵 JP 1-tg+univstar
-      - 🇯🇵 JP 2-tg univstar
-      - 🇯🇵 JP 3-tg univstar
+      - 🇯🇵 JP 2-tg+univstar
+      - 🇯🇵 JP 3-tg+univstar
       - 🇯🇵 JP 4-tg univstar
       - 🇯🇵 JP 5-tg univstar
-      - 🇯🇵 JP 6-tg+univstar
+      - 🇯🇵 JP 6-tg univstar
       - 🇯🇵 JP 7-tg univstar
-      - 🇯🇵 JP 8-tg univstar
+      - 🇯🇵 JP 8-tg+univstar
+      - 🇯🇵 JP 9-tg+univstar
+      - 🇳🇱 NL 1-tg univstar
       - 🇷🇺 RU 1-tg+univstar
-      - 🇷🇺 RU 2-tg+univstar
+      - 🇷🇺 RU 2-tg univstar
       - 🇷🇺 RU 3-tg univstar
       - 🇷🇺 RU 4-tg univstar
-      - 🇷🇺 RU 5-tg univstar
-      - 🇷🇺 RU 6-tg univstar
       - 🇸🇬 SG 1-tg univstar
       - 🇸🇬 SG 2-tg univstar
       - 🇸🇬 SG 3-tg univstar
@@ -266,17 +252,17 @@ proxy-groups:
       - 🇸🇬 SG 7-tg univstar
       - 🇸🇬 SG 8-tg univstar
       - 🇺🇸 US 1-tg+univstar
-      - 🇺🇸 US 10-tg+univstar
+      - 🇺🇸 US 10-tg univstar
       - 🇺🇸 US 11-tg univstar
-      - 🇺🇸 US 12-tg univstar
+      - 🇺🇸 US 12-tg+univstar
       - 🇺🇸 US 13-tg univstar
       - 🇺🇸 US 14-tg univstar
-      - 🇺🇸 US 15-tg+univstar
+      - 🇺🇸 US 15-tg univstar
       - 🇺🇸 US 16-tg+univstar
       - 🇺🇸 US 17-tg+univstar
       - 🇺🇸 US 18-tg+univstar
       - 🇺🇸 US 19-tg+univstar
-      - 🇺🇸 US 2-tg univstar
+      - 🇺🇸 US 2-tg+univstar
       - 🇺🇸 US 20-tg+univstar
       - 🇺🇸 US 21-tg+univstar
       - 🇺🇸 US 22-tg+univstar
@@ -298,7 +284,7 @@ proxy-groups:
       - 🇺🇸 US 37-tg+univstar
       - 🇺🇸 US 38-tg+univstar
       - 🇺🇸 US 39-tg+univstar
-      - 🇺🇸 US 4-tg+univstar
+      - 🇺🇸 US 4-tg univstar
       - 🇺🇸 US 40-tg+univstar
       - 🇺🇸 US 41-tg+univstar
       - 🇺🇸 US 42-tg+univstar
@@ -313,14 +299,14 @@ proxy-groups:
       - 🇺🇸 US 50-tg+univstar
       - 🇺🇸 US 51-tg+univstar
       - 🇺🇸 US 52-tg+univstar
-      - 🇺🇸 US 53-tg univstar
-      - 🇺🇸 US 54-tg univstar
-      - 🇺🇸 US 55-tg univstar
+      - 🇺🇸 US 53-tg+univstar
+      - 🇺🇸 US 54-tg+univstar
+      - 🇺🇸 US 55-tg+univstar
       - 🇺🇸 US 56-tg univstar
-      - 🇺🇸 US 57-tg+univstar
+      - 🇺🇸 US 57-tg univstar
       - 🇺🇸 US 58-tg univstar
-      - 🇺🇸 US 59-tg univstar
-      - 🇺🇸 US 6-tg+univstar
+      - 🇺🇸 US 59-tg+univstar
+      - 🇺🇸 US 6-tg univstar
       - 🇺🇸 US 60-tg univstar
       - 🇺🇸 US 61-tg univstar
       - 🇺🇸 US 62-tg univstar
@@ -329,28 +315,32 @@ proxy-groups:
       - 🇺🇸 US 65-tg univstar
       - 🇺🇸 US 66-tg univstar
       - 🇺🇸 US 67-tg univstar
-      - 🇺🇸 US 68-tg+univstar
-      - 🇺🇸 US 69-tg+univstar
-      - 🇺🇸 US 7-tg univstar
+      - 🇺🇸 US 68-tg univstar
+      - 🇺🇸 US 69-tg univstar
+      - 🇺🇸 US 7-tg+univstar
       - 🇺🇸 US 70-tg univstar
       - 🇺🇸 US 71-tg univstar
       - 🇺🇸 US 72-tg univstar
       - 🇺🇸 US 73-tg univstar
       - 🇺🇸 US 74-tg univstar
       - 🇺🇸 US 75-tg univstar
-      - 🇺🇸 US 76-tg+univstar
+      - 🇺🇸 US 76-tg univstar
       - 🇺🇸 US 77-tg univstar
       - 🇺🇸 US 78-tg univstar
-      - 🇺🇸 US 79-tg univstar
-      - 🇺🇸 US 8-tg univstar
-      - 🇺🇸 US 80-tg univstar
+      - 🇺🇸 US 79-tg+univstar
+      - 🇺🇸 US 8-tg+univstar
+      - 🇺🇸 US 80-tg+univstar
       - 🇺🇸 US 81-tg univstar
       - 🇺🇸 US 82-tg univstar
       - 🇺🇸 US 83-tg univstar
-      - 🇺🇸 US 84-tg univstar
+      - 🇺🇸 US 84-tg+univstar
       - 🇺🇸 US 85-tg univstar
-      - 🇺🇸 US 86-tg univstar
+      - 🇺🇸 US 86-tg+univstar
+      - 🇺🇸 US 87-tg univstar
+      - 🇺🇸 US 88-tg univstar
+      - 🇺🇸 US 89-tg univstar
       - 🇺🇸 US 9-tg univstar
+      - 🇺🇸 US 90-tg univstar
   - name: 💡 自动选择
     type: url-test
     url: https://www.google.com/generate_204
@@ -366,33 +356,27 @@ proxy-groups:
       - UA 3-tg+univstar
       - UA 4-tg univstar
       - UA 5-tg univstar
-      - UA 6-tg univstar
-      - UA 7-tg+univstar
+      - UA 6-tg+univstar
+      - UA 7-tg univstar
       - unknown 1-tg univstar
       - unknown 2-tg univstar
       - unknown 3-tg univstar
       - unknown 4-tg univstar
       - unknown 5-tg univstar
       - unknown 6-tg univstar
-      - unknown 7-tg univstar
-      - unknown 8-tg univstar
       - 🇦🇺 AU 1-tg+univstar
       - 🇦🇺 AU 2-tg univstar
       - 🇦🇺 AU 3-tg univstar
       - 🇦🇺 AU 4-tg univstar
-      - 🇦🇺 AU 5-tg univstar
       - 🇨🇦 CA 1-tg univstar
       - 🇨🇦 CA 2-tg univstar
       - 🇨🇦 CA 3-tg univstar
       - 🇨🇦 CA 4-tg univstar
       - 🇨🇦 CA 5-tg univstar
+      - 🇨🇦 CA 6-tg univstar
       - 🇨🇳 CN 1-tg univstar
       - 🇨🇳 CN 10-tg univstar
       - 🇨🇳 CN 11-tg univstar
-      - 🇨🇳 CN 12-tg univstar
-      - 🇨🇳 CN 13-tg univstar
-      - 🇨🇳 CN 14-tg univstar
-      - 🇨🇳 CN 15-tg univstar
       - 🇨🇳 CN 2-tg univstar
       - 🇨🇳 CN 3-tg univstar
       - 🇨🇳 CN 4-tg univstar
@@ -402,10 +386,12 @@ proxy-groups:
       - 🇨🇳 CN 8-tg univstar
       - 🇨🇳 CN 9-tg univstar
       - 🇨🇳 TW 1-tg+univstar
-      - 🇨🇳 TW 2-tg univstar
+      - 🇨🇳 TW 2-tg+univstar
       - 🇨🇳 TW 3-tg univstar
+      - 🇨🇳 TW 4-tg univstar
       - 🇩🇪 DE 1-tg+univstar
       - 🇩🇪 DE 2-tg univstar
+      - 🇩🇪 DE 3-tg univstar
       - 🇬🇧 GB 1-tg univstar
       - 🇬🇧 GB 2-tg univstar
       - 🇬🇧 GB 3-tg univstar
@@ -414,25 +400,20 @@ proxy-groups:
       - 🇭🇰 HK 2-tg univstar
       - 🇭🇰 HK 3-tg univstar
       - 🇭🇰 HK 4-tg univstar
-      - 🇭🇰 HK 5-tg univstar
-      - 🇭🇰 HK 6-tg univstar
-      - 🇭🇰 HK 7-tg univstar
-      - 🇭🇰 HK 8-tg univstar
-      - 🇭🇰 HK 9-tg univstar
       - 🇯🇵 JP 1-tg+univstar
-      - 🇯🇵 JP 2-tg univstar
-      - 🇯🇵 JP 3-tg univstar
+      - 🇯🇵 JP 2-tg+univstar
+      - 🇯🇵 JP 3-tg+univstar
       - 🇯🇵 JP 4-tg univstar
       - 🇯🇵 JP 5-tg univstar
-      - 🇯🇵 JP 6-tg+univstar
+      - 🇯🇵 JP 6-tg univstar
       - 🇯🇵 JP 7-tg univstar
-      - 🇯🇵 JP 8-tg univstar
+      - 🇯🇵 JP 8-tg+univstar
+      - 🇯🇵 JP 9-tg+univstar
+      - 🇳🇱 NL 1-tg univstar
       - 🇷🇺 RU 1-tg+univstar
-      - 🇷🇺 RU 2-tg+univstar
+      - 🇷🇺 RU 2-tg univstar
       - 🇷🇺 RU 3-tg univstar
       - 🇷🇺 RU 4-tg univstar
-      - 🇷🇺 RU 5-tg univstar
-      - 🇷🇺 RU 6-tg univstar
       - 🇸🇬 SG 1-tg univstar
       - 🇸🇬 SG 2-tg univstar
       - 🇸🇬 SG 3-tg univstar
@@ -442,17 +423,17 @@ proxy-groups:
       - 🇸🇬 SG 7-tg univstar
       - 🇸🇬 SG 8-tg univstar
       - 🇺🇸 US 1-tg+univstar
-      - 🇺🇸 US 10-tg+univstar
+      - 🇺🇸 US 10-tg univstar
       - 🇺🇸 US 11-tg univstar
-      - 🇺🇸 US 12-tg univstar
+      - 🇺🇸 US 12-tg+univstar
       - 🇺🇸 US 13-tg univstar
       - 🇺🇸 US 14-tg univstar
-      - 🇺🇸 US 15-tg+univstar
+      - 🇺🇸 US 15-tg univstar
       - 🇺🇸 US 16-tg+univstar
       - 🇺🇸 US 17-tg+univstar
       - 🇺🇸 US 18-tg+univstar
       - 🇺🇸 US 19-tg+univstar
-      - 🇺🇸 US 2-tg univstar
+      - 🇺🇸 US 2-tg+univstar
       - 🇺🇸 US 20-tg+univstar
       - 🇺🇸 US 21-tg+univstar
       - 🇺🇸 US 22-tg+univstar
@@ -474,7 +455,7 @@ proxy-groups:
       - 🇺🇸 US 37-tg+univstar
       - 🇺🇸 US 38-tg+univstar
       - 🇺🇸 US 39-tg+univstar
-      - 🇺🇸 US 4-tg+univstar
+      - 🇺🇸 US 4-tg univstar
       - 🇺🇸 US 40-tg+univstar
       - 🇺🇸 US 41-tg+univstar
       - 🇺🇸 US 42-tg+univstar
@@ -489,14 +470,14 @@ proxy-groups:
       - 🇺🇸 US 50-tg+univstar
       - 🇺🇸 US 51-tg+univstar
       - 🇺🇸 US 52-tg+univstar
-      - 🇺🇸 US 53-tg univstar
-      - 🇺🇸 US 54-tg univstar
-      - 🇺🇸 US 55-tg univstar
+      - 🇺🇸 US 53-tg+univstar
+      - 🇺🇸 US 54-tg+univstar
+      - 🇺🇸 US 55-tg+univstar
       - 🇺🇸 US 56-tg univstar
-      - 🇺🇸 US 57-tg+univstar
+      - 🇺🇸 US 57-tg univstar
       - 🇺🇸 US 58-tg univstar
-      - 🇺🇸 US 59-tg univstar
-      - 🇺🇸 US 6-tg+univstar
+      - 🇺🇸 US 59-tg+univstar
+      - 🇺🇸 US 6-tg univstar
       - 🇺🇸 US 60-tg univstar
       - 🇺🇸 US 61-tg univstar
       - 🇺🇸 US 62-tg univstar
@@ -505,28 +486,32 @@ proxy-groups:
       - 🇺🇸 US 65-tg univstar
       - 🇺🇸 US 66-tg univstar
       - 🇺🇸 US 67-tg univstar
-      - 🇺🇸 US 68-tg+univstar
-      - 🇺🇸 US 69-tg+univstar
-      - 🇺🇸 US 7-tg univstar
+      - 🇺🇸 US 68-tg univstar
+      - 🇺🇸 US 69-tg univstar
+      - 🇺🇸 US 7-tg+univstar
       - 🇺🇸 US 70-tg univstar
       - 🇺🇸 US 71-tg univstar
       - 🇺🇸 US 72-tg univstar
       - 🇺🇸 US 73-tg univstar
       - 🇺🇸 US 74-tg univstar
       - 🇺🇸 US 75-tg univstar
-      - 🇺🇸 US 76-tg+univstar
+      - 🇺🇸 US 76-tg univstar
       - 🇺🇸 US 77-tg univstar
       - 🇺🇸 US 78-tg univstar
-      - 🇺🇸 US 79-tg univstar
-      - 🇺🇸 US 8-tg univstar
-      - 🇺🇸 US 80-tg univstar
+      - 🇺🇸 US 79-tg+univstar
+      - 🇺🇸 US 8-tg+univstar
+      - 🇺🇸 US 80-tg+univstar
       - 🇺🇸 US 81-tg univstar
       - 🇺🇸 US 82-tg univstar
       - 🇺🇸 US 83-tg univstar
-      - 🇺🇸 US 84-tg univstar
+      - 🇺🇸 US 84-tg+univstar
       - 🇺🇸 US 85-tg univstar
-      - 🇺🇸 US 86-tg univstar
+      - 🇺🇸 US 86-tg+univstar
+      - 🇺🇸 US 87-tg univstar
+      - 🇺🇸 US 88-tg univstar
+      - 🇺🇸 US 89-tg univstar
       - 🇺🇸 US 9-tg univstar
+      - 🇺🇸 US 90-tg univstar
   - name: 🇭🇰 香港节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -537,11 +522,6 @@ proxy-groups:
       - 🇭🇰 HK 2-tg univstar
       - 🇭🇰 HK 3-tg univstar
       - 🇭🇰 HK 4-tg univstar
-      - 🇭🇰 HK 5-tg univstar
-      - 🇭🇰 HK 6-tg univstar
-      - 🇭🇰 HK 7-tg univstar
-      - 🇭🇰 HK 8-tg univstar
-      - 🇭🇰 HK 9-tg univstar
   - name: 🇯🇵 日本节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -549,13 +529,14 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇯🇵 JP 1-tg+univstar
-      - 🇯🇵 JP 2-tg univstar
-      - 🇯🇵 JP 3-tg univstar
+      - 🇯🇵 JP 2-tg+univstar
+      - 🇯🇵 JP 3-tg+univstar
       - 🇯🇵 JP 4-tg univstar
       - 🇯🇵 JP 5-tg univstar
-      - 🇯🇵 JP 6-tg+univstar
+      - 🇯🇵 JP 6-tg univstar
       - 🇯🇵 JP 7-tg univstar
-      - 🇯🇵 JP 8-tg univstar
+      - 🇯🇵 JP 8-tg+univstar
+      - 🇯🇵 JP 9-tg+univstar
   - name: 🇺🇲 美国节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -563,17 +544,17 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇺🇸 US 1-tg+univstar
-      - 🇺🇸 US 10-tg+univstar
+      - 🇺🇸 US 10-tg univstar
       - 🇺🇸 US 11-tg univstar
-      - 🇺🇸 US 12-tg univstar
+      - 🇺🇸 US 12-tg+univstar
       - 🇺🇸 US 13-tg univstar
       - 🇺🇸 US 14-tg univstar
-      - 🇺🇸 US 15-tg+univstar
+      - 🇺🇸 US 15-tg univstar
       - 🇺🇸 US 16-tg+univstar
       - 🇺🇸 US 17-tg+univstar
       - 🇺🇸 US 18-tg+univstar
       - 🇺🇸 US 19-tg+univstar
-      - 🇺🇸 US 2-tg univstar
+      - 🇺🇸 US 2-tg+univstar
       - 🇺🇸 US 20-tg+univstar
       - 🇺🇸 US 21-tg+univstar
       - 🇺🇸 US 22-tg+univstar
@@ -595,7 +576,7 @@ proxy-groups:
       - 🇺🇸 US 37-tg+univstar
       - 🇺🇸 US 38-tg+univstar
       - 🇺🇸 US 39-tg+univstar
-      - 🇺🇸 US 4-tg+univstar
+      - 🇺🇸 US 4-tg univstar
       - 🇺🇸 US 40-tg+univstar
       - 🇺🇸 US 41-tg+univstar
       - 🇺🇸 US 42-tg+univstar
@@ -610,14 +591,14 @@ proxy-groups:
       - 🇺🇸 US 50-tg+univstar
       - 🇺🇸 US 51-tg+univstar
       - 🇺🇸 US 52-tg+univstar
-      - 🇺🇸 US 53-tg univstar
-      - 🇺🇸 US 54-tg univstar
-      - 🇺🇸 US 55-tg univstar
+      - 🇺🇸 US 53-tg+univstar
+      - 🇺🇸 US 54-tg+univstar
+      - 🇺🇸 US 55-tg+univstar
       - 🇺🇸 US 56-tg univstar
-      - 🇺🇸 US 57-tg+univstar
+      - 🇺🇸 US 57-tg univstar
       - 🇺🇸 US 58-tg univstar
-      - 🇺🇸 US 59-tg univstar
-      - 🇺🇸 US 6-tg+univstar
+      - 🇺🇸 US 59-tg+univstar
+      - 🇺🇸 US 6-tg univstar
       - 🇺🇸 US 60-tg univstar
       - 🇺🇸 US 61-tg univstar
       - 🇺🇸 US 62-tg univstar
@@ -626,28 +607,32 @@ proxy-groups:
       - 🇺🇸 US 65-tg univstar
       - 🇺🇸 US 66-tg univstar
       - 🇺🇸 US 67-tg univstar
-      - 🇺🇸 US 68-tg+univstar
-      - 🇺🇸 US 69-tg+univstar
-      - 🇺🇸 US 7-tg univstar
+      - 🇺🇸 US 68-tg univstar
+      - 🇺🇸 US 69-tg univstar
+      - 🇺🇸 US 7-tg+univstar
       - 🇺🇸 US 70-tg univstar
       - 🇺🇸 US 71-tg univstar
       - 🇺🇸 US 72-tg univstar
       - 🇺🇸 US 73-tg univstar
       - 🇺🇸 US 74-tg univstar
       - 🇺🇸 US 75-tg univstar
-      - 🇺🇸 US 76-tg+univstar
+      - 🇺🇸 US 76-tg univstar
       - 🇺🇸 US 77-tg univstar
       - 🇺🇸 US 78-tg univstar
-      - 🇺🇸 US 79-tg univstar
-      - 🇺🇸 US 8-tg univstar
-      - 🇺🇸 US 80-tg univstar
+      - 🇺🇸 US 79-tg+univstar
+      - 🇺🇸 US 8-tg+univstar
+      - 🇺🇸 US 80-tg+univstar
       - 🇺🇸 US 81-tg univstar
       - 🇺🇸 US 82-tg univstar
       - 🇺🇸 US 83-tg univstar
-      - 🇺🇸 US 84-tg univstar
+      - 🇺🇸 US 84-tg+univstar
       - 🇺🇸 US 85-tg univstar
-      - 🇺🇸 US 86-tg univstar
+      - 🇺🇸 US 86-tg+univstar
+      - 🇺🇸 US 87-tg univstar
+      - 🇺🇸 US 88-tg univstar
+      - 🇺🇸 US 89-tg univstar
       - 🇺🇸 US 9-tg univstar
+      - 🇺🇸 US 90-tg univstar
   - name: 🇹🇼 台湾节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -655,8 +640,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 TW 1-tg+univstar
-      - 🇨🇳 TW 2-tg univstar
+      - 🇨🇳 TW 2-tg+univstar
       - 🇨🇳 TW 3-tg univstar
+      - 🇨🇳 TW 4-tg univstar
   - name: 🇸🇬 狮城节点
     type: url-test
     url: https://www.google.com/generate_204
@@ -685,34 +671,29 @@ proxy-groups:
       - 🇦🇺 AU 2-tg univstar
       - 🇦🇺 AU 3-tg univstar
       - 🇦🇺 AU 4-tg univstar
-      - 🇦🇺 AU 5-tg univstar
       - 🇨🇦 CA 1-tg univstar
       - 🇨🇦 CA 2-tg univstar
       - 🇨🇦 CA 3-tg univstar
       - 🇨🇦 CA 4-tg univstar
       - 🇨🇦 CA 5-tg univstar
+      - 🇨🇦 CA 6-tg univstar
       - 🇩🇪 DE 1-tg+univstar
       - 🇩🇪 DE 2-tg univstar
+      - 🇩🇪 DE 3-tg univstar
       - 🇬🇧 GB 1-tg univstar
       - 🇬🇧 GB 2-tg univstar
       - 🇬🇧 GB 3-tg univstar
       - 🇬🇧 GB 4-tg univstar
       - 🇷🇺 RU 1-tg+univstar
-      - 🇷🇺 RU 2-tg+univstar
+      - 🇷🇺 RU 2-tg univstar
       - 🇷🇺 RU 3-tg univstar
       - 🇷🇺 RU 4-tg univstar
-      - 🇷🇺 RU 5-tg univstar
-      - 🇷🇺 RU 6-tg univstar
   - name: 🎄 Netflix解锁
     type: select
     proxies:
       - 🇨🇳 CN 1-tg univstar
       - 🇨🇳 CN 10-tg univstar
       - 🇨🇳 CN 11-tg univstar
-      - 🇨🇳 CN 12-tg univstar
-      - 🇨🇳 CN 13-tg univstar
-      - 🇨🇳 CN 14-tg univstar
-      - 🇨🇳 CN 15-tg univstar
       - 🇨🇳 CN 2-tg univstar
       - 🇨🇳 CN 3-tg univstar
       - 🇨🇳 CN 4-tg univstar
@@ -721,12 +702,14 @@ proxy-groups:
       - 🇨🇳 CN 7-tg univstar
       - 🇨🇳 CN 8-tg univstar
       - 🇨🇳 CN 9-tg univstar
+      - 🇳🇱 NL 1-tg univstar
   - name: 🎄 Disney+解锁
     type: select
     proxies:
       - BD 1-tg univstar
       - 🇩🇪 DE 1-tg+univstar
       - 🇩🇪 DE 2-tg univstar
+      - 🇩🇪 DE 3-tg univstar
   - name: 🎄 B站港澳台解锁
     type: select
     proxies:
