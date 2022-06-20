@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `13522`
+合并节点总数: `13549`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -165,7 +165,7 @@
 - [Jinxnet 节点池](https://pool.jinxnet.xyz), 节点数量: `0`
 - [tomdegnan/clashrule](https://github.com/tomdegnan/clashrule), 节点数量: `214`
 - [TG@getv2ray](https://t.me/getv2ray), 节点数量: `0`
-- [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `37`
+- [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `67`
 - [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `182`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `78`
 - [KYLELI1991/sysucc](https://github.com/KYLELI1991/sysucc), 节点数量: `0`
@@ -183,7 +183,7 @@
 - [openit's proxy pool](open.ml), 节点数量: `5170`
 - [jingfu](https://kingfu.herokuapp.com/), 节点数量: `426`
 - [daycat](https://github.com/daycat/freeray/), 节点数量: `178`
-- [univstar](https://t.me/univstar), 节点数量: `81`
+- [univstar](https://t.me/univstar), 节点数量: `78`
 
 ## 客户端选择
 ### 主流桌面客户端
