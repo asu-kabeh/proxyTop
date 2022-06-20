@@ -8,71 +8,71 @@ on:
   workflow_dispatch:
 
 jobs:
-#   me-job:
-#     name: sub_merge
-#     runs-on : ubuntu-latest
-#     steps:
-#     - uses: actions/checkout@v3
-#     - uses: actions/setup-python@v3
-#       with:
-#         python-version: '3.x'
-#     - uses: actions/cache@v3
-#       with:
-#         path: ~/.cache/pip
-#         key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
-#         restore-keys: |
-#           ${{ runner.os }}-pip-
-#     - name: 设置时区
-#       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-#     - name: 安装依赖
-#       run: |
-#         pip install -r ./utils/requirements.txt
-#     - name: 执行任务
-#       run: |
-#         wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
-#         tar -zxvf subconverter.tar.gz -C ./
-#         chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
-#         python ./utils/list_merge.py
+  me-job:
+    name: sub_merge
+    runs-on : ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'
+    - uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: 安装依赖
+      run: |
+        pip install -r ./utils/requirements.txt
+    - name: 执行任务
+      run: |
+        wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
+        tar -zxvf subconverter.tar.gz -C ./
+        chmod +x ./subconverter/subconverter && nohup ./subconverter/subconverter >./subconverter.log 2>&1 &
+        python ./utils/list_merge.py
       
-#     - name: 提交更改
-#       run: |                 
-#         git config --local user.email "actions@github.com"
-#         git config --local user.name "GitHub Actions"
-#         git pull origin master
-#         git add ./sub
-#         git add README.md
-#         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
-#     - name: 推送更改
-#       uses:  ad-m/github-push-action@master
-#       with:
-#         branch: master
-#   cc-job: #input./utils/clashcheck/config.yaml
-#     name: ClashCheck
-#     needs: me-job
-#     # runs-on: self-hosted #python git pip和镜像
-#     runs-on: ubuntu-latest
-#     steps: 
-#     - uses: actions/checkout@v3
-#     - uses: actions/setup-python@v4
-#       with:
-#         python-version: '3.x'
-#     - name: Timezone
-#       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-#     - name: init
-#       run: | 
-#          git config pull.rebase false
-#          git config --local user.name "GitHub Actions"
-#          git config --local user.email "actions@github.com"
-#          # pip config set local.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-#     - name: requirements.txt
-#       run: pip install -r ./utils/clashcheck/requirements.txt
-#     - name: main.py
-#       run: cd ./utils/clashcheck/ && python main.py && python main.py && python main.py
-#     - run: ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml
+    - name: 提交更改
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
+        git add ./sub
+        git add README.md
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
+    - name: 推送更改
+      uses:  ad-m/github-push-action@master
+      with:
+        branch: master
+  cc-job: #input./utils/clashcheck/config.yaml
+    name: ClashCheck
+    needs: me-job
+    # runs-on: self-hosted #python git pip和镜像
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: init
+      run: | 
+         git config pull.rebase false
+         git config --local user.name "GitHub Actions"
+         git config --local user.email "actions@github.com"
+         # pip config set local.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+    - name: requirements.txt
+      run: pip install -r ./utils/clashcheck/requirements.txt
+    - name: main.py
+      run: cd ./utils/clashcheck/ && python main.py && python main.py && python main.py
+    - run: ./.github/update-repo.sh || true   #output./utils/clashcheck/check.yaml
 
   rm-job: #input./utils/clashcheck/check.yaml
     name: rm
-#     needs: cc-job
+    needs: cc-job
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -101,6 +101,7 @@ jobs:
       run: | #input./utils/rm/url ./url ./.github/url.sh ./1 ./2 ./3
          rm ./utils/rm/rm1 ./utils/rm/rm2 #./utils/rm/out #./utils/rm/config.yml #清理垃圾
          #input./utils/rm/out
+         rm ./url
          mv ./utils/rm/out ./url #output./url
          #input./url
          base64 ./url > ./utils/pool/check -w 0 #output./utils/pool/check
