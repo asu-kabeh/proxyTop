@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `13222`
+合并节点总数: `13207`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -166,7 +166,7 @@
 - [tomdegnan/clashrule](https://github.com/tomdegnan/clashrule), 节点数量: `214`
 - [TG@getv2ray](https://t.me/getv2ray), 节点数量: `0`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `33`
-- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `227`
+- [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `212`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `41`
 - [KYLELI1991/sysucc](https://github.com/KYLELI1991/sysucc), 节点数量: `0`
 - [mhmhone/shadowrocket-free-subscribe](https://github.com/mhmhone/shadowrocket-free-subscribe), 节点数量: `31`
