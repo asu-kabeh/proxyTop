@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `12531`
+合并节点总数: `12547`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -175,7 +175,7 @@
 - [poduv/poduv](https://github.com/poduv/poduv), 节点数量: `20`
 - [ok1991/v2ray](https://github.com/ok1991/v2ray), 节点数量: `39`
 - [parkerpa/jsfxs](https://github.com/parkerpa/jsfxs), 节点数量: `582`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `49`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `65`
 - [songkaik/Sub](https://github.com/songkaik/Sub), 节点数量: `0`
 - [yosefwang/subscription](https://github.com/yosefwang/subscription), 节点数量: `0`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `101`
