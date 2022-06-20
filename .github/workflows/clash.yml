@@ -136,5 +136,4 @@ jobs:
          #output./utils/subconverter/long ./utils/subconverter/Clash.yaml ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
          mv ./utils/subconverter/long ./long || true
          mv ./utils/subconverter/Clash.yaml ./Clash.yaml || true
-         rm ./utils/subconverter/pool.yaml ./utils/subconverter/rm1
     - run: ./.github/update-repo.sh || true   #output./long ./Clash.yaml
