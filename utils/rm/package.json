@@ -19,7 +19,7 @@
   "homepage": "https://github.com/wu-mx/URLignore#readme",
   "dependencies": {
     "axios": "^0.27.2",
-    "clash-proxy": "^0.0.2",
+    "clash-proxy": "^0.0.1",
     "geoip-lite": "^1.4.5",
     "single-line-log": "^1.1.2"
   }

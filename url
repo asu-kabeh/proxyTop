@@ -29,8 +29,10 @@ trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk01.yiyodns.xyz:443?allowInsec
 trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-hk02.yiyodns.xyz:443?allowInsecure=1#🇭🇰HK 2-tg+univstar
 trojan://3ece2cd7-076d-4e9f-8a23-e7d9b4e3f62e@hk.n.optage.moe:44601?allowInsecure=1&sni=hk.node.qchwnd.moe#🇭🇰HK 3-tg+univstar
 trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@fk.i809.ml:52087?allowInsecure=1#🇭🇰HK 4-tg+univstar
-trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp06.jafiyun.life:21233?allowInsecure=1#🇭🇰HK 5-tg+univstar
-trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp05.jafiyun.life:21232?allowInsecure=1&sni=jp05.jafiyun.life#🇭🇰HK 6-tg+univstar
+trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@pf.i809.ml:12087?allowInsecure=1#🇭🇰HK 5-tg+univstar
+trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@pf.i809.ml:12087?allowInsecure=1&sni=pf.i809.ml#🇭🇰HK 6-tg+univstar
+trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp06.jafiyun.life:21233?allowInsecure=1#🇭🇰HK 7-tg+univstar
+trojan://63d7b7bb-e526-3ea5-a61f-9da6df645da0@jp05.jafiyun.life:21232?allowInsecure=1&sni=jp05.jafiyun.life#🇭🇰HK 8-tg+univstar
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7pIVSAxLXRnK3VuaXZzdGFyIiwiYWRkIjoiMTg1LjIyNS42OS4xMzQiLCJwb3J0IjoiNDUwODEiLCJ0eXBlIjoibm9uZSIsImlkIjoiM2MzYmZkNzUtZGMzMC00ZTc2LTg5NDAtNDdlMTEzN2UyMWY5IiwiYWlkIjoiNjQiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
 vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7VKUCAxLXRnK3VuaXZzdGFyIiwiYWRkIjoianAxLndhbnNzLndpbiIsInBvcnQiOiIyMzM0NCIsInR5cGUiOiJub25lIiwiaWQiOiI0OEMxNjZCMi1CRkMyLTUxMkUtNEQ2Ny00N0MyRjdCMkNFNUMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJqcDEud2Fuc3Mud2luIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7VKUCAyLXRnK3VuaXZzdGFyIiwiYWRkIjoiMTQ2LjU2LjQ3LjE2MSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmYTA3MDJmNC04ZWM5LTQ4ZTUtOWI1My1hMGFmYjdjMzcxN2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNDYuNTYuNDcuMTYxIiwidGxzIjoiIn0=
@@ -136,8 +138,6 @@ trojan://08335c73-dfdc-4d0f-ae12-cf10acbae55a@t.jap6.skyinternet.vip:443?allowIn
 trojan://08335c73-dfdc-4d0f-ae12-cf10acbae55a@t.kor1.skyinternet.vip:443?allowInsecure=1#🇺🇸US 76-tg+univstar
 trojan://08335c73-dfdc-4d0f-ae12-cf10acbae55a@t.kor2.skyinternet.vip:443?allowInsecure=1#🇺🇸US 77-tg+univstar
 trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@zf.i809.ml:45687?allowInsecure=1#🇺🇸US 78-tg+univstar
-trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@pf.i809.ml:12087?allowInsecure=1#🇺🇸US 79-tg+univstar
-trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@zf.i809.ml:25565?allowInsecure=1#🇺🇸US 80-tg+univstar
-trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@zf.i809.ml:32196?allowInsecure=1#🇺🇸US 81-tg+univstar
-trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#🇺🇸US 82-tg+univstar
-trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@pf.i809.ml:12087?allowInsecure=1&sni=pf.i809.ml#🇺🇸US 83-tg+univstar
+trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@zf.i809.ml:25565?allowInsecure=1#🇺🇸US 79-tg+univstar
+trojan://4cbef035-de54-4125-ad4e-d4bcb15c0088@zf.i809.ml:32196?allowInsecure=1#🇺🇸US 80-tg+univstar
+trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?allowInsecure=1#🇺🇸US 81-tg+univstar
