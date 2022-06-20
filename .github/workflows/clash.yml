@@ -114,7 +114,9 @@ jobs:
          cat 1 2 > 3 && rm 1 2 #output./3
          #input./3
          base64 3 > https -w 0 && rm 3 #output./https
-    - run: ./.github/update-repo.sh || true   #output./url ./https ./utils/pool/check
+    - run: |
+            ./.github/update-repo.sh || true
+            ./.github/update-repo.sh || true #output./url ./https ./utils/pool/check
   et-job: 
     name: Encode & Translate
     needs: rm-job
