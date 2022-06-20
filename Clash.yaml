@@ -593,6 +593,30 @@ proxy-groups:
       - 🇬🇧 GB 3-univstar
       - 🇬🇧 GB 4-univstar
       - 🇷🇺 RU 1-univstar
+  - name: 🎄 Netflix解锁
+    type: select
+    proxies:
+      - MN 1-univstar
+      - VN 1-univstar
+      - 🇨🇳 CN 1-univstar
+      - 🇨🇳 CN 2-univstar
+      - 🇨🇳 CN 3-univstar
+      - 🇨🇳 CN 4-univstar
+      - 🇨🇳 CN 5-univstar
+      - 🇨🇳 CN 6-univstar
+      - 🇨🇳 CN 7-univstar
+  - name: 🎄 Disney+解锁
+    type: select
+    proxies:
+      - 🇩🇪 DE 1-univstar
+      - 🇩🇪 DE 2-univstar
+  - name: 🎄 B站港澳台解锁
+    type: select
+    proxies:
+      - 🇬🇧 GB 1-univstar
+      - 🇬🇧 GB 2-univstar
+      - 🇬🇧 GB 3-univstar
+      - 🇬🇧 GB 4-univstar
   - name: 👉 国内网站
     type: select
     proxies:
@@ -635,8 +659,8 @@ proxy-groups:
   - name: 📲 聊天软件
     type: select
     proxies:
-      - 🌐 节点选择
       - 💡 自动选择
+      - 🌐 节点选择
       - ☁️ 全球直连
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -713,6 +737,7 @@ proxy-groups:
   - name: 🎬 NETFLIX
     type: select
     proxies:
+      - 🎄 Netflix解锁
       - 🌐 节点选择
       - 💡 自动选择
       - ☁️ 全球直连
@@ -726,6 +751,7 @@ proxy-groups:
   - name: 🎬 Disney+
     type: select
     proxies:
+      - 🎄 Disney+解锁
       - 🌐 节点选择
       - 💡 自动选择
       - ☁️ 全球直连
@@ -805,6 +831,7 @@ proxy-groups:
     type: select
     proxies:
       - ☁️ 全球直连
+      - 🎄 B站港澳台解锁
       - 🌐 节点选择
       - 💡 自动选择
       - 🇭🇰 香港节点
