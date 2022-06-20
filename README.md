@@ -140,7 +140,7 @@
 </details>
 
 ### 所有节点
-合并节点总数: `13248`
+合并节点总数: `13162`
 [节点链接](https://raw.githubusercontent.com/reny311/proxyTop/master/sub/sub_merge.txt)
 
 ### 节点来源
@@ -148,7 +148,7 @@
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `427`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `126`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `43`
-- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `137`
+- [learnhard-cn/free_proxy_ss](https://github.com/learnhard-cn/free_proxy_ss), 节点数量: `51`
 - [vpei/Free-Node-Merge](https://github.com/vpei/Free-Node-Merge), 节点数量: `100`
 - [colatiger/v2ray-nodes](https://github.com/colatiger/v2ray-nodes), 节点数量: `75`
 - [oslook/clash-freenode](https://github.com/oslook/clash-freenode), 节点数量: `42`
