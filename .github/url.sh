@@ -1,5 +1,5 @@
 #!/bin/bash
-name=Openit
+name=proxyTop
 line=`sed -n '$=' url`
 time=`date "+%Y.%m.%d %H:%M:%S"`
 
