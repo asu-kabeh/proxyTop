@@ -1,25 +1,25 @@
 HTTP/1.1 200 OK
 Connection: keep-alive
-Content-Length: 50590
+Content-Length: 35018
 Cache-Control: max-age=300
 Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
 Content-Type: text/plain; charset=utf-8
-ETag: "32bbfeb4e658a74fb5c66bdf6d7a475e910bae71694025f58a6be52797119a38"
+ETag: "9cff175a703cae124382940e6983cc673523fa6990d7bee0abce7ff46fc5ddd1"
 Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: 77CA:1950:19CEC7:2548BD:62B11059
+X-GitHub-Request-Id: E17E:871A:5BC07A:7A4D1D:62B124CC
 Accept-Ranges: bytes
-Date: Tue, 21 Jun 2022 00:27:05 GMT
+Date: Tue, 21 Jun 2022 01:54:20 GMT
 Via: 1.1 varnish
-X-Served-By: cache-sjc10054-SJC
+X-Served-By: cache-bur-kbur8200151-BUR
 X-Cache: MISS
 X-Cache-Hits: 0
-X-Timer: S1655771225.361184,VS0,VE151
+X-Timer: S1655776460.221802,VS0,VE201
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
-X-Fastly-Request-ID: de0922aa4b0f7e45bf855f6156d0782993582bb3
-Expires: Tue, 21 Jun 2022 00:32:05 GMT
+X-Fastly-Request-ID: 4651e6d8518a65f968b2d0a011421375e1b2ff3e
+Expires: Tue, 21 Jun 2022 01:59:20 GMT
 Source-Age: 0
 
